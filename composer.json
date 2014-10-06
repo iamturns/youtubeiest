@@ -1,0 +1,26 @@
+{
+    "name": "turbullm/youtubeiest",
+    "type": "library",
+    "description": "Extract information from YouTube videos, including; ID, URL, embed code, and thumbnail images",
+    "license": "ISC",
+    "keywords": ["youtube"],
+    "authors": [
+        {
+            "name": "Matthew Turnbull",
+            "email": "turnbullm@gmail.com",
+            "homepage": "http://turnbullm.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "YouTubeiest\\": "src/"
+        }
+    }
+}
