@@ -19,8 +19,8 @@ $video = $youTubeiest->createVideo('http://www.youtube.com/watch?v=dQw4w9WgXcQ')
 
 echo $video->getId(); //dQw4w9WgXcQ"
 echo $video->getUrl(); //http://www.youtube.com/watch?v=dQw4w9WgXcQ"
-echo $video->getEmbedCode(); //<iframe width="420" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-echo $video->getEmbedCode(YouTubeiest::EMBED_CODE_STYLE_OLD); //<iframe width="420" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+echo $video->getEmbedCode(); //<iframe [...] ></iframe>
+echo $video->getEmbedCode(YouTubeiest::EMBED_CODE_STYLE_OLD); //<object [...] ></object>
 
 ```
 ## Adding to composer
