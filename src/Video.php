@@ -58,8 +58,8 @@ class Video
 
         switch ($style) {
 
-            case null:
             case YouTubeiest::EMBED_CODE_STYLE_STANDARD:
+            case null:
 
                 return <<<END_OF_EMBED_CODE
 <iframe width="420" height="315" src="//www.youtube.com/embed/{$this->_id}" frameborder="0" allowfullscreen></iframe>

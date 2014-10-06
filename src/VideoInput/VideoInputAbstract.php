@@ -3,7 +3,7 @@
 namespace YouTubeiest\VideoInput;
 
 /**
- * Basic video input holding common code
+ * Common video input code
  */
 abstract class VideoInputAbstract
 {

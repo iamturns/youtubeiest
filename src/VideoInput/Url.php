@@ -16,7 +16,7 @@ class Url extends VideoInputAbstract
     protected function _isValid()
     {
         return (bool)preg_match(
-            '/v=([A-Za-z0-9\-_]+)/',
+            '/v=[A-Za-z0-9\-_]+/',
             $this->_value
         );
     }

@@ -61,7 +61,7 @@ class YouTubeiest
     }
 
     /**
-     * @param string|VideoInputInterface $input
+     * @param string|VideoInputInterface $input YouTube ID or URL
      * @throws Exception
      * @return Video
      */
