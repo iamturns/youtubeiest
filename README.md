@@ -11,7 +11,7 @@ This is an incomplete test version. Stay tuned!
 ```
 "repositories": [
     {
-        "url": "https://github.com/turnbullm/YouTubeiest.git",
+        "url": "https://github.com/turnbullm/youtubeiest.git",
         "type": "git"
     }
 ]
@@ -19,8 +19,14 @@ This is an incomplete test version. Stay tuned!
 
 ```
 "require": {
-    "turnbullm/YouTubeiest": "master"
+    "turnbullm/youtubeiest": "master"
 }
+```
+
+You must need to adjust your 'minimum-stability' setting
+
+```
+"minimum-stability": "dev"
 ```
 
 ## Basic usage
