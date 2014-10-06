@@ -23,7 +23,7 @@ This is an incomplete test version. Stay tuned!
 }
 ```
 
-You must need to adjust your 'minimum-stability' setting
+You may need to adjust your 'minimum-stability' setting;
 
 ```
 "minimum-stability": "dev"
