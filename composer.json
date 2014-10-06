@@ -1,7 +1,7 @@
 {
     "name": "turbullm/youtubeiest",
     "type": "library",
-    "description": "Extract information from YouTube videos, including; ID, URL, embed code, and thumbnail images",
+    "description": "Of all the PHP YouTube libraries, this is the YouTubeiest",
     "license": "ISC",
     "keywords": ["youtube"],
     "authors": [
