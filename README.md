@@ -2,31 +2,12 @@
 
 Of all the PHP YouTube libraries, this is the YouTubeiest
 
-## Please note
-
-This is an incomplete test version. Stay tuned!
-
 ## Install via Composer
 
-```
-"repositories": [
-    {
-        "url": "https://github.com/turnbullm/youtubeiest.git",
-        "type": "git"
-    }
-]
-```
+Require:
 
 ```
-"require": {
-    "turnbullm/youtubeiest": "master"
-}
-```
-
-You may need to adjust your 'minimum-stability' setting;
-
-```
-"minimum-stability": "dev"
+"turnbullm/youtubeiest": "1.0.0"
 ```
 
 ## Basic usage
@@ -51,5 +32,4 @@ echo $video->getId(); //dQw4w9WgXcQ
 echo $video->getUrl(); //http://www.youtube.com/watch?v=dQw4w9WgXcQ
 echo $video->getEmbedCode(); //<iframe [...] ></iframe>
 echo $video->getEmbedCode(YouTubeiest::EMBED_CODE_STYLE_OLD); //<object [...] ></object>
-
 ```
