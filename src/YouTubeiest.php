@@ -1,7 +1,7 @@
 <?php
 
 /**
- * YouTubeiest v0.0.1 - Of all the PHP YouTube libraries, this is the YouTubeiest
+ * YouTubeiest v1.0.0 - Of all the PHP YouTube libraries, this is the YouTubeiest
  * https://github.com/turnbullm/youtubeiest
  */
 
