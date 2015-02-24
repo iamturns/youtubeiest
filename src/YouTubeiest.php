@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * YouTubeiest v0.0.1 - Of all the PHP YouTube libraries, this is the YouTubeiest
+ * https://github.com/turnbullm/youtubeiest
+ */
+
 namespace YouTubeiest;
 
 use YouTubeiest\VideoInput\Factory\FactoryInterface as VideoInputFactoryInterface;
